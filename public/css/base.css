@@ -60,3 +60,24 @@ p, ul {
 ul {
   padding-left: 30px;
 }
+
+input,textarea {
+  padding: 4px 10px;
+  font-size: 16px;
+  margin: 5px 0;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 300px;
+  resize: none;
+  color: '#999';
+}
+input[type="submit"] {
+  padding: 10px 0;
+  text-align: center;
+  color: #333;
+  width: 322px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
